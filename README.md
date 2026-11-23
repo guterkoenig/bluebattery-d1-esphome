@@ -25,7 +25,7 @@ Private ESPHome-Konfiguration zum Auslesen eines **BlueBattery D1** (`BlueBasic 
 
 ## Einbindung in Home Assistant & Energiedashboard
 
-1. Die YAML-Datei in ESPHome übernehmen, eigene Werte in `secrets.yaml` hinterlegen (`wifi_ssid`, `wifi_password`, `secondary_wifi_ssid`, `secondary_wifi_password`, `fallback_password`, `api_encryption_key`) und die MAC-Adresse des BlueBattery D1 (`FC:45:C3:B9:F9:00`) an dein Gerät anpassen.
+1. Die YAML-Datei in ESPHome übernehmen, eigene Werte in `secrets.yaml` hinterlegen (`wifi_ssid`, `wifi_password`, `secondary_wifi_ssid`, `secondary_wifi_password`, `fallback_password`, `api_encryption_key`) und die MAC-Adresse des BlueBattery D1 an dein Gerät anpassen.
 2. Für die Energieanzeige im Home-Assistant-Energiedashboard (`Wh` bzw. `kWh`) über **Einstellungen -> Geräte & Dienste -> Helfer -> Sensor für Riemann-Summenintegrale** jeweils einen Helfer auf die gewünschten Leistungssensoren (`W`) anlegen (z. B. *BlueBattery Ladeleistung*, *BlueBattery Entladeleistung*, *BlueBattery Land/Motor Ladeleistung*) und im Energiedashboard zuweisen.
 
 ## Referenz
