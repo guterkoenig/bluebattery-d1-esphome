@@ -1,4 +1,4 @@
-# BlueBattery D1 (`V4.19`) via ESPHome (`BCLive`)
+# BlueBattery D1 (`V4.19`) via ESPHome
 
 Private ESPHome-Konfiguration zum Auslesen eines **BlueBattery D1** (`BlueBasic BlueBattery-D1`, Firmware `V4.19`) über Bluetooth Low Energy (`BCLive`) auf einem ESP32 und zur Einbindung in **Home Assistant** (inklusive Leistungs- und Energiedashboard-Vorbereitung).
 
