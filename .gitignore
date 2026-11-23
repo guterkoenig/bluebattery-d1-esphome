@@ -1,0 +1,17 @@
+# ESPHome Build- und Cache-Artefakte
+.esphome/
+*.bin
+*.elf
+*.map
+*.factory.bin
+*.ota.bin
+
+# Lokale Zugangsdaten & Secrets
+secrets.yaml
+*secret*
+
+# System- & Editor-Dateien
+.DS_Store
+Thumbs.db
+*.swp
+*~
