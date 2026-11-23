@@ -30,4 +30,4 @@ Private ESPHome-Konfiguration zum Auslesen eines **BlueBattery D1** (`BlueBasic 
 
 ## Referenz
 
-Das Byte-Layout der Frames (`0x00`, `0x02`, `0x03`) sowie Skalierungsfaktoren wurden anhand des Python-Projekts **`bluebattery.py`** abgeglichen und eigenständig in ESPHome-Lambdas umgesetzt.
+Das Byte-Layout der Frames (`0x00`, `0x02`, `0x03`) sowie Skalierungsfaktoren wurden anhand des Python-Projekts (https://github.com/danielfett/bluebattery.py abgeglichen und eigenständig in ESPHome-Lambdas umgesetzt.
